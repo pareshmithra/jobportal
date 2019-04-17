@@ -1,0 +1,8 @@
+<h3>Applicants Details</h3>
+<table border="1px">
+    <tr *ngFor="let applicants of postedJobs?.AppliedStudentDetails">
+        <td style="padding: 10px">{{ applicants.empName }}</td>
+        <td style="padding: 10px">{{ applicants.job_title }}</td>
+        <!-- <span [innerText]="applicants.job_title"></span> -->
+    </tr>
+</table>
